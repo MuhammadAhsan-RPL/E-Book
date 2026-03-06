@@ -68,7 +68,7 @@
                                 📖 Sinopsis
                             </h2>
                             <p class="text-gray-700 leading-relaxed text-lg">
-                                {{ $detail->sinopsis }}
+                                {{ $detail->sinopsis }}git push origin main --force
                             </p>
                         </div>
 
