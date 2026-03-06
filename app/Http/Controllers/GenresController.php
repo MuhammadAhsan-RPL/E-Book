@@ -14,7 +14,8 @@ class GenresController extends Controller
     {
         // 
         $genres = Genres::all();
-        return view('genres.index', compact('genres'));
+        $no = 1;
+        return view('genres.index', compact('genres', 'no'));
     }
 
     /**
@@ -42,7 +43,7 @@ class GenresController extends Controller
 
         Genres::create($genres);
 
-        return redirect()->route('genre.index');
+        return redirect()->route('genre.index')->with('Success', 'Berhasil menambahkan genre');
         
     }
 
@@ -57,24 +58,43 @@ class GenresController extends Controller
     /**
      * Show the form for editing the specified resource.
      */
-    public function edit(Genres $genres)
+    public function edit($id)
     {
         //
+        $update = Genres::find($id);
+        return view('genres.edit', compact('update'));
     }
 
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, Genres $genres)
+    public function update(Request $request, $id)
     {
         //
+        $update = Genres::find($id);
+
+        if(!$update){
+            return redirect()->route('genre.index')->with("eror");
+        }
+        $update->update([
+            "name_genre" => $request->name_genre
+        ]);
+        return redirect()->route('genre.index')->with("success");
     }
 
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(Genres $genres)
+    public function destroy($id)
     {
         //
+        $hapus = Genres::find($id);
+
+        if(!$hapus){
+            return redirect()->route('genre.index')->with('eror');
+        }
+        $hapus->delete();
+        
+        return redirect()->route('genre.index')->with('success');
     }
 }
