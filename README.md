@@ -2,11 +2,9 @@
 
 Modern digital library website for reading and exploring online books with clean and responsive UI.
 
-🌐 Live Demo  
-https://your-ebook-website.vercel.app/
 
 📂 Repository  
-https://github.com/MuhammadAhsan-RPL/E-Book-Website
+https://github.com/MuhammadAhsan-RPL/E-Book
 
 ---
 
