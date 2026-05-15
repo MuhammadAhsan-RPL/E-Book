@@ -1,117 +1,55 @@
-# 📚 Sistem Informasi Perpustakaan - Laravel
+# 📚 E-Book Website
 
-Aplikasi Sistem Informasi Perpustakaan berbasis Laravel.  
-Project ini dibuat sebagai media pembelajaran untuk memahami:
+Modern digital library website for reading and exploring online books with clean and responsive UI.
 
-- Migration
-- Relasi Database
-- CRUD
-- Upload Gambar
-- Authentication
-- Dashboard Admin
-- Tailwind CSS
+🌐 Live Demo  
+https://your-ebook-website.vercel.app/
+
+📂 Repository  
+https://github.com/MuhammadAhsan-RPL/E-Book-Website
 
 ---
 
-## 🛠️ Persyaratan Sistem
+## ✨ Features
 
-Pastikan sudah menginstall:
-
-- PHP >= 8.1  
-- Composer  
-- MySQL  
-- Git  
-- Node.js & NPM (untuk Tailwind)  
-- Laragon / MAMP / XAMPP  
+- Digital book catalog
+- Responsive modern UI
+- Book preview section
+- Simple navigation
+- Mobile friendly layout
+- Fast loading website
 
 ---
 
-## 🚀 Cara Install Project
+## 🛠️ Tech Stack
 
-### 1️⃣ Clone Repository
-```bash
-git clone https://github.com/DionAhza/E-Library
-cd e-library
-```
+### 🌐 Frontend
 
-### 2️⃣ Install Dependency Laravel
-```bash
-composer install
-```
+<p>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
+</p>
 
-### 3️⃣ Install Dependency Frontend (Tailwind)
-```bash
-npm install
-```
+### 🧰 Tools
 
-### 4️⃣ Copy File Environment
-Linux / Mac:
-```bash
-cp .env.example .env
-```
-
-Windows:
-```bash
-copy .env.example .env
-```
-
-### 5️⃣ Generate App Key
-```bash
-php artisan key:generate
-```
-
-### 6️⃣ Atur Database di File `.env`
-```
-DB_DATABASE=belajar_perpus_db
-DB_USERNAME=root
-DB_PASSWORD=
-```
-
-### 7️⃣ Jalankan Migration
-```bash
-php artisan migrate
-```
-
-### 8️⃣ Compile Tailwind
-Untuk development:
-```bash
-npm run dev
-```
-
-Untuk production:
-```bash
-npm run build
-```
-
-### 9️⃣ Jalankan Server
-```bash
-php artisan serve
-```
-
-Buka di browser:
-```
-http://127.0.0.1:8000
-```
+<p>
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white"/>
+</p>
 
 ---
 
-## 🔥 Reset Database (Jika Error)
+## 📌 Purpose
 
-```bash
-php artisan migrate:fresh
-```
-⚠️ Semua data akan terhapus.
-
----
-
-## ❗ Jika Terjadi Error
-
-- Pastikan database sudah dibuat  
-- Pastikan file `.env` sudah benar  
-- Jalankan ulang `composer install`  
-- Jalankan ulang `npm install`  
-- Jalankan ulang `php artisan key:generate`  
+- Practice front-end development
+- Learn responsive web design
+- Build digital library website
 
 ---
 
-✨ Selamat belajar Laravel + Tailwind 🚀
+## 👨‍💻 Developer
+
+Made with ❤️ by Muhammad Ahsan
