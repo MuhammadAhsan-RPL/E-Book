@@ -3,7 +3,7 @@
 Modern digital library website with responsive UI for exploring and reading online books.
 
 🌐 Live Demo  
-https://youtu.be/Z2kU738L1qw?si=p7hUmfGh9BEJyHRQ
+https://youtu.be/auX85RvSgdw?si=83BPwPQiOywMQQDn
 
 📂 Repository  
 https://github.com/MuhammadAhsan-RPL/E-Book
