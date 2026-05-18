@@ -1,7 +1,9 @@
 # 📚 E-Book Website
 
-Modern digital library website for reading and exploring online books with clean and responsive UI.
+Modern digital library website with responsive UI for exploring and reading online books.
 
+🌐 Live Demo  
+https://e-book-website.vercel.app/
 
 📂 Repository  
 https://github.com/MuhammadAhsan-RPL/E-Book
@@ -11,11 +13,11 @@ https://github.com/MuhammadAhsan-RPL/E-Book
 ## ✨ Features
 
 - Digital book catalog
+- Authentication system
+- Admin dashboard
+- Book management system
 - Responsive modern UI
-- Book preview section
-- Simple navigation
 - Mobile friendly layout
-- Fast loading website
 
 ---
 
@@ -30,6 +32,20 @@ https://github.com/MuhammadAhsan-RPL/E-Book
   <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
 </p>
 
+### ⚙️ Backend & Database
+
+<p>
+  <img src="https://img.shields.io/badge/Laravel-0F172A?style=for-the-badge&logo=laravel&logoColor=FF2D20"/>
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"/>
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
+</p>
+
+### 🚀 Deployment
+
+<p>
+  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
+</p>
+
 ### 🧰 Tools
 
 <p>
@@ -42,9 +58,10 @@ https://github.com/MuhammadAhsan-RPL/E-Book
 
 ## 📌 Purpose
 
-- Practice full-stack development
-- Learn responsive web design
-- Build digital library website
+- Develop a modern digital library platform
+- Improve fullstack development skills
+- Explore database & authentication systems
+- Build a real-world web application experience
 
 ---
 
