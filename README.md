@@ -42,7 +42,7 @@ https://github.com/MuhammadAhsan-RPL/E-Book
 
 ## 📌 Purpose
 
-- Practice front-end development
+- Practice full-stack development
 - Learn responsive web design
 - Build digital library website
 
